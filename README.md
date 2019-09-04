@@ -11,7 +11,7 @@ This project is created for the anz coding challenge.
 - This project is a REST service based on Spring Boot.
 - H2 memory database is used in this demo project to simplify the test
 - Two db tables are created, one is for Account, another one is for Transaction, the two tables can be joint by account_number field
-- two APIs are designed, one is for AccountList, another one is for TransactionList
+- Two APIs are designed, one is for AccountList, another one is for TransactionList
 - User authentication is not considered in this demo project, the account list should be grouped by user_id
  
 ### Assumption
