@@ -1,0 +1,27 @@
+INSERT INTO account (account_number, account_name, account_type, balance, balance_date, currency) VALUES(585309209, 'SGSavings726', 'SAVINGS', 84327.51, '2018-11-08', 'SGD');
+INSERT INTO account (account_number, account_name, account_type, balance, balance_date, currency) VALUES(791066619, 'AUSavings933', 'SAVINGS', 4327.01, '2018-11-08', 'AUD');
+INSERT INTO account (account_number, account_name, account_type, balance, balance_date, currency) VALUES(321143048, 'AUCurrent433', 'CURRENT', 843.16, '2018-11-08', 'SGD');
+INSERT INTO account (account_number, account_name, account_type, balance, balance_date, currency) VALUES(347786244, 'SGCurrent166', 'CURRENT', 1484327.51, '2018-11-08', 'AUD');
+INSERT INTO account (account_number, account_name, account_type, balance, balance_date, currency) VALUES(680168913, 'AUCurrent374', 'CURRENT', 87.51, '2018-11-08', 'SGD');
+INSERT INTO account (account_number, account_name, account_type, balance, balance_date, currency) VALUES(334666982, 'AUSavings253', 'SAVINGS', 84327.51, '2018-11-08', 'AUD');
+INSERT INTO account (account_number, account_name, account_type, balance, balance_date, currency) VALUES(136056165, 'AUSavings938', 'SAVINGS', 7.51, '2018-11-08', 'SGD');
+INSERT INTO account (account_number, account_name, account_type, balance, balance_date, currency) VALUES(493563528, 'SGSavings842', 'SAVINGS', 1184327.51, '2018-11-08', 'AUD');
+
+
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(585309209, 'SGSavings726', '2018-11-08', 'SGD', 0, 9540.98, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(585309209, 'SGSavings726', '2018-11-08', 'SGD', 540.98, 0, 'DEBIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(585309209, 'SGSavings726', '2018-11-08', 'SGD', 0, 9540.98, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(791066619, 'AUSavings933', '2018-11-08', 'AUD', 0, 40.98, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(791066619, 'AUSavings933', '2018-11-08', 'AUD', 9897.98, 0, 'DEBIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(321143048, 'AUCurrent433', '2018-11-08', 'SGD', 0, 955445.98, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(321143048, 'AUCurrent433', '2018-11-08', 'SGD', 0, 943545.98, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(321143048, 'AUCurrent433', '2018-11-08', 'SGD', 0, 955436.88, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(321143048, 'AUCurrent433', '2018-11-08', 'SGD', 90.65, 0, 'DEBIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(321143048, 'AUCurrent433', '2018-11-08', 'SGD', 0, 40.98, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(347786244, 'SGCurrent166', '2018-11-08', 'AUD', 0, 950.98, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(680168913, 'AUCurrent374', '2018-11-08', 'SGD', 0, 540.98, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(680168913, 'AUCurrent374', '2018-11-08', 'SGD', 0, 9540.66, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(334666982, 'AUSavings253', '2018-11-08', 'AUD', 0, 954234.77, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(334666982, 'AUSavings253', '2018-11-08', 'AUD', 0, 955454.33, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(585309209, 'SGSavings726', '2018-11-08', 'SGD', 0, 956464.22, 'CREDIT', '');
+INSERT INTO account_transaction (account_number, account_name, value_date, currency, debit_amount, credit_amount, transaction_type, transaction_narrative) VALUES(585309209, 'SGSavings726', '2018-11-08', 'SGD', 9534.92, 0, 'DEBIT', '');
